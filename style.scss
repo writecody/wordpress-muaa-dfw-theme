@@ -1,0 +1,27 @@
+// VARIABLES
+
+// typefaces
+// font-family: 'Frank Ruhl Libre', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+
+:root {
+  --black: #000000;
+  --gold: #F1B82D;
+  --lightgray: #DBD5CD;
+  --white: #FFFFFF;
+}
+
+// HTML ELEMENT SELECTORS
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--gold);
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 700;
+}
+
+p, span, button {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: var(--black);
+}
+
+// CUSTOM SELECTORS
