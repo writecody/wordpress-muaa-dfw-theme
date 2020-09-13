@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,KAAM,CACJ,MAAM,CAAC,QAAQ,CACf,WAAW,CAAC,QAAQ",
+"sources": ["style.scss"],
+"names": [],
+"file": "output.css"
+}
