@@ -10,6 +10,49 @@
 }
 
 // HTML ELEMENT SELECTORS
+html {
+  // background: var(--lightgray);
+  border-top: 1rem solid var(--gold);
+  margin: 0;
+}
 
+h1, h2, h3, h4 {
+  border-bottom: 0.25rem solid var(--gold);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+
+a {
+  color: white;
+  font-family: 'Oswald';
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    border-bottom: 0.5rem solid var(--gold);
+    color: var(--gold);
+  }
+}
+
+div {
+  background: black;
+  margin: 0 auto;
+}
+
+p, span {
+  font-family: 'Lora', sans-serif;
+}
+
+nav ul {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 0 1.5rem 0;
+}
 
 // CUSTOM SELECTORS

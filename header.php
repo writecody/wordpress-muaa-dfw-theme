@@ -7,18 +7,19 @@
 </head>
 <body>
 
-<header class="container">
-  <h1>Mizzou Alumni Association</h1>
-  <h1>Dallas-Ft. Worth Chapter</h1>
+<header>
+  <div>
+    <h1>Mizzou Alumni Association 
+      <br>Dallas-Ft. Worth Chapter
+    </h1>
+  </div>
   <nav>
     <ul>
-      <li>
-        <a href="/watch-parties">Watch Parties</a>
-        <a href="/events">Events</a>
-        <a href="/about">About</a>
-        <a href="/news">News</a>
-        <a href="/contact">Contact</a>
-      </li>
+      <li><a href="/watch-parties">Watch Parties</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/news">News</a></li>
+        <li><a href="/contact">Contact</a></li>
     </ul>
   </nav>
 </header>
