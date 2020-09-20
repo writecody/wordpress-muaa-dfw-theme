@@ -1,7 +1,13 @@
+<?php 
+/**
+ * Template Name: Front Page
+ */
+?>
+
 <?php get_header(); ?>
 
 <main>
-  <section class="front-page-copy">
+  <section class="copy">
     <p><span>The Mizzou Alumni Association family includes more than 39,000 alumni and friends, and 120-plus chapters and groups, who come together to make a positive impact on the University of Missouri.</span></p>
     <p>Responses to a recent survey of Mizzou Alumni found that 94% believe they made the right decision by attending Mizzou, and 95% promote their alma mater to others.</p>
     <p>Mizzou Alumni are a proud bunch, and love to connect with other Tigers. Did you know there are over 13,000 Mizzou alumni in Texas? You should join us sometime at one of our events or watch parties. You might meet a future friend or coworker.</p>

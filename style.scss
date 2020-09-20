@@ -79,7 +79,6 @@ span {
 }
 
 section {
-  align-content: space-around;
   color: white;
   display: flex;
   flex-direction: column;
@@ -91,8 +90,10 @@ section {
   }
 }
 
-.front-page-copy {
+.copy  {
   padding: 2rem;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 nav ul {
@@ -123,16 +124,26 @@ footer {
 
 @media(max-width:450px) {
 
-  .front-page-copy {
+  .copy {
     width: auto;
   }
   
-  .front-page-image {
+  .image {
     width: auto;
   }
 
   main {
     flex-direction: column;
+  }
+
+  .copy {
+    margin: 0 auto 0.5rem;
+    padding: 0;
+    width: 90%;
+  }
+
+  nav ul {
+    padding: 0.5rem;
   }
 }
 

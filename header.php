@@ -9,16 +9,17 @@
 
 <header>
   <div>
-    <h1>Mizzou Alumni Association 
+    <a href="/">
+      <h1>Mizzou Alumni Association 
       <br>Dallas-Ft. Worth Chapter
     </h1>
+  </a>
   </div>
   <nav>
     <ul>
       <li><a class="button-link" href="/watch-parties">Watch Parties</a></li>
         <li><a class="button-link" href="/events">Events</a></li>
         <li><a class="button-link" href="/about">About</a></li>
-        <li><a class="button-link" href="/news">News</a></li>
         <li><a class="button-link" href="/contact">Contact</a></li>
         <li><a class="button-link" href="https://www.mizzou.com/s/1002/alumni/19/membership.aspx?sid=1002&gid=1001&pgid=10097" target="_blank">Join / Renew</a></li>
     </ul>
