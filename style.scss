@@ -33,15 +33,28 @@ h1, h2, h3, h4 {
   }
 }
 
-a {
+.button-link {
   color: white;
   font-family: 'Oswald';
   text-decoration: none;
   text-transform: uppercase;
 
   &:hover {
-    border-bottom: 0.5rem solid var(--gold);
+    border-bottom: 0.6rem solid var(--gold);
     color: var(--gold);
+  }
+}
+
+.text-link {
+  border: none;
+  color: black;
+  text-decoration: none;
+  text-transform: none;
+  font-weight: normal;
+
+  &:hover {
+    border: none;
+    text-decoration: underline;
   }
 }
 
@@ -67,15 +80,15 @@ span {
 
 section {
   align-content: space-around;
-  background: var(--lightgray);
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
 
-    & img {
-      object-fit: none;
-    }
+  & img {
+    object-fit: none;
+  }
 }
 
 .front-page-copy {
@@ -91,7 +104,7 @@ nav ul {
   justify-content: space-around;
   list-style-type: none;
   margin: 0;
-  padding: 1rem 0 1.5rem 0;
+  padding: 0.5rem 0 0.5rem 0;
 }
 
 footer {
@@ -118,9 +131,9 @@ footer {
     width: auto;
   }
 
-main {
-  flex-direction: column;
-}
+  main {
+    flex-direction: column;
+  }
 }
 
 

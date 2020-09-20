@@ -15,12 +15,12 @@
   </div>
   <nav>
     <ul>
-      <li><a href="/watch-parties">Watch Parties</a></li>
-        <li><a href="/events">Events</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/news">News</a></li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="https://www.mizzou.com/s/1002/alumni/19/membership.aspx?sid=1002&gid=1001&pgid=10097" target="_blank">Join / Renew</a></li>
+      <li><a class="button-link" href="/watch-parties">Watch Parties</a></li>
+        <li><a class="button-link" href="/events">Events</a></li>
+        <li><a class="button-link" href="/about">About</a></li>
+        <li><a class="button-link" href="/news">News</a></li>
+        <li><a class="button-link" href="/contact">Contact</a></li>
+        <li><a class="button-link" href="https://www.mizzou.com/s/1002/alumni/19/membership.aspx?sid=1002&gid=1001&pgid=10097" target="_blank">Join / Renew</a></li>
     </ul>
   </nav>
 </header>
