@@ -10,10 +10,8 @@
 <header>
   <div>
     <a href="/">
-      <h1>Mizzou Alumni Association 
-      <br>Dallas-Ft. Worth Chapter
-    </h1>
-  </a>
+      <h1>Mizzou Alumni Association <span>Dallas-Ft. Worth Chapter</span></h1>
+    </a>
   </div>
   <nav>
     <ul>
