@@ -9,6 +9,57 @@
 // font-family: 'Oswald', sans-serif;
 // font-family: 'Lora', serif;
 
+#wpcf7-f66-p18-o1 {
+  background: #000;
+  border: 1px solid black;
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Lora', serif;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+label {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 0.5rem;
+  text-transform: uppercase;
+
+  & input[type="radio"] {
+    font-size: 1.25rem;
+    margin: 1rem;
+  } 
+}
+
+textarea {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.wpcf7-form-control-wrap {
+  & input {
+    background: rgba(240, 185, 45, 0.7);
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+  }
+
+}
+
+.wpcf7-submit {
+  background-color: #F1B82D;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
 * {
   ::-moz-selection { 
     background: var(--gold);
@@ -19,8 +70,16 @@
   }
 }
 
-a {
-  text-decoration: none;
+.editor-content-section {
+  & a {
+    text-decoration: none;
+    color: inherit;
+  
+    &:hover {
+      background: rgba(240, 185, 45, 0.7);
+      text-decoration: underline;
+    }
+  }
 }
 
 header {
@@ -105,8 +164,12 @@ main {
 p {
   font-family: 'Lora', sans-serif;
   color: #000;
-  line-height: 1.75;
+  line-height: 2;
 }
+
+  form p {
+    line-height: 1;
+  }
 
 span {
   display: block;
@@ -118,11 +181,12 @@ section {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   width: 50%;
 
   & img {
-    height: 100%;
+    align-items: flex-start;
+    max-height: 100vh;
     object-fit: cover;
   }
 }
@@ -130,7 +194,6 @@ section {
 .copy  {
   padding: 2rem;
   justify-content: flex-start;
-  width: 100%;
 
   & td {
     
@@ -228,10 +291,6 @@ tr {
 
   h1 {
     color: var(--gold);
-  }
-
-  nav ul {
-
   }
 
   section {

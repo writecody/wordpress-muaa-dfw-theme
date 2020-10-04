@@ -20,9 +20,11 @@
 <main>
   <section class="copy">
     <p><?php echo '<span>' . $header . '</span>'; ?></p>
-    <?php echo '<p>' . $copy . '</p>
-    <p><span>' . $secondary_header . '</span></p>' ?>
-    <div><?php the_content(); ?></div>
+    <?php if($copy) {
+      echo '<p>' . $copy . '</p>'; 
+    } 
+    '<p><span>' . $secondary_header . '</span></p>' ?>
+    <div class="editor-content-section"><?php the_content(); ?></div>
   </section>
   <section class="image">
     <img src="<?php echo $main_image; ?>" />
