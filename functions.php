@@ -2,8 +2,7 @@
 
   function mu_load_scripts() {
     wp_enqueue_style('css-output', get_template_directory_uri().'/output.css');
-    wp_enqueue_style('fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
-    wp_enqueue_style('google-font-lora', '//fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap"');
+    wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap"');
   }
   add_action('wp_enqueue_scripts', 'mu_load_scripts');
 

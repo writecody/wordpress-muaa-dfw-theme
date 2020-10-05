@@ -1,13 +1,8 @@
 // VARIABLES
-
 :root {
   --gold: #F1B82D;
   --lightgray: #DBD5CD;
 }
-
-// typefaces
-// font-family: 'Oswald', sans-serif;
-// font-family: 'Helvetica', serif;
 
 #wpcf7-f66-p18-o1 {
   background: rgba(0, 0, 0, 0.6);
@@ -15,7 +10,6 @@
   color: #FFF;
   display: flex;
   flex-direction: row;
-  font-family: 'Helvetica', serif;
   margin-top: 2rem;
   padding: 1rem;
   width: 80%;
@@ -26,7 +20,6 @@ label {
   color: #FFF;
   display: flex;
   flex-direction: column;
-  font-family: 'Oswald', sans-serif;
   font-size: 1rem;
   font-weight: 200;
   letter-spacing: 0.125rem;
@@ -50,16 +43,15 @@ label {
 }
 
 textarea {
-  font-family: 'Helvetica', serif;
   font-size: 1.5rem;
-  padding: 0.5rem;
   height: 6rem;
   overflow: scroll;
+  padding: 0.5rem;
+  width: 80%;
 }
 
 .wpcf7-form-control-wrap {
   & input {
-    font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
     font-weight: 300;
     padding: 0.25rem;
@@ -72,12 +64,14 @@ textarea {
   cursor: pointer;
   margin-left: 0.5rem;
   padding: 0 2rem;
-  font-family: "Oswald", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 * {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Archivo', monospace;
+
   ::-moz-selection { 
     background: var(--gold);
   }
@@ -120,7 +114,6 @@ body {
 
 h1 {
   color: #FFF;
-  font-family: 'Oswald', 'Helvetica', sans-serif;
   margin: 0 auto;
   padding: 1rem 2rem;
 
@@ -132,7 +125,6 @@ h1 {
 h2, h3, h4 {
   border-bottom: 0.25rem solid var(--gold);
   color: #FFF;
-  font-family: 'Oswald', 'Helvetica', sans-serif;
   margin: 0 auto;
   padding: 0 2rem 1rem;
 
@@ -150,7 +142,6 @@ tbody {
 
 .button-link {
   color: #FFF;
-  font-family: 'Oswald', 'Helvetica', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -179,7 +170,6 @@ main {
 }
 
 p {
-  font-family: 'Helvetica', sans-serif;
   color: #000;
   line-height: 2;
 }
@@ -189,17 +179,17 @@ form p {
   display: flex;
   flex-direction: column;  
   line-height: 1;
-
-  }
-
-span {
-  display: block;
-  font-size: 1rem;
-  font-weight: 500;
 }
 
 #header-title-link {
+  color: #FFF;
+  line-height: 1.5;
   text-decoration: none;
+
+  & span {
+    display: block;
+    font-size: 1.5rem;
+  }
 }
 
 section {
@@ -216,8 +206,16 @@ section {
   }
 }
 
+.page-header {
+  color: #000;
+
+  &:hover {
+    color: #000;
+  }
+}
+
 .copy  {
-  padding: 2rem;
+  padding: 0 2rem;
   justify-content: flex-start;
 
   & td {
@@ -229,7 +227,6 @@ section {
       color: #000;
       display: flex;
       flex-wrap: wrap;
-      font-family: 'Oswald', 'Helvetica', sans-serif;
       font-size: 1.25rem;
       height: 5rem;
       justify-content: center;
@@ -251,7 +248,6 @@ section {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      font-family: 'Helvetica', 'Helvetica', sans-serif;
       justify-content: center;
       padding: 0 10%;
     }
@@ -301,7 +297,9 @@ tr {
   width: 11rem;
 }
 
-@media(max-width:450px) {
+
+
+@media(max-width:550px) {
   .image {
     width: auto;
   }
@@ -316,8 +314,13 @@ tr {
     width: 90%;
   }
 
-  h1 {
-    color: var(--gold);
+  .button-link {
+    color: #F1B82D;
+  }
+
+  nav ul {
+    justify-content: space-between;
+    padding-bottom: 1rem;
   }
 
   section {
