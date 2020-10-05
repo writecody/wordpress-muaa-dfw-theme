@@ -9,7 +9,7 @@
 
 <header>
   <div>
-    <a href="/">
+    <a id="header-title-link" href="/">
       <h1>Mizzou Alumni Association <span>Dallas-Ft. Worth Chapter</span></h1>
     </a>
   </div>
